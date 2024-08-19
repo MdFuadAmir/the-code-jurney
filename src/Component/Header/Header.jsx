@@ -35,6 +35,8 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     return (
         <>
+        <div className="bg-gray-200/40">
+
         <div className="p-4 flex justify-between items-center max-w-6xl mx-auto">
             {/* logo */}
             <div>
@@ -57,6 +59,7 @@ const Header = () => {
             </div>
         </div>
         <ResponsiveNavber open={open}/>
+        </div>
         </>
             
     );

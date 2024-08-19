@@ -3,7 +3,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
     return (
-        <section className="max-w-6xl mx-auto px-4 py-6 md:py-12">
+        <div className="bg-gray-200/40">
+            <section className="max-w-6xl mx-auto px-4 py-6 md:py-12">
             <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-6">
                 <div>
                     <div className="space-y-4">
@@ -18,14 +19,9 @@ const Hero = () => {
                 <div className="flex justify-center">
                     <img src={heroimg} alt="" />
                 </div>
-
             </div>
-
-
-            
-
-            
-        </section>
+            </section>
+        </div>
     );
 };
 
