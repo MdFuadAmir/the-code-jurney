@@ -25,11 +25,8 @@ const Aboutus = () => {
                     <p>Lifetime Access</p>
                 </div>
                 </div>
-
                 </div>
-
             </div>
-            
         </section>
     );
 };
