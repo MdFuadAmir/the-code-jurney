@@ -11,12 +11,8 @@ const Community = () => {
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center items-center">
                 <img src={banner} alt="" className="w-[350px]"/>
-
                 </div>
-
             </div>
-
-            
         </div>
     );
 };

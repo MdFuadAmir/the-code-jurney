@@ -3,6 +3,7 @@ import Root from "../Root/Root";
 import Home from "../Component/Home/Home";
 import Service from "../Component/Service/Service";
 import Aboutus from "../Component/Aboutus/Aboutus";
+import OurTeam from "../Component/OurTeam/OurTeam";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path:"/aboutus",
                 element:<Aboutus/>
+            },
+            {
+                path:"/ourteam",
+                element:<OurTeam/>
             },
         ]    
     }
