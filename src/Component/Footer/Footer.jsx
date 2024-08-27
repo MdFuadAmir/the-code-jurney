@@ -6,8 +6,8 @@ const Footer = () => {
             <footer className="footer bg-base-200 text-base-content p-10">
   <aside>
         <h1 className="text-2xl font-bold">The Coding<span className="text-[#73b1a6]"> Journey</span></h1>
-    <p>
-      Fuad It ltd
+    <p className="font-semibold font-serif">
+      Fuad It Ltd
       <br />
       Providing reliable tech since 2024
     </p>
